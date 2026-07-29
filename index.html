@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scratch Game</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>Scratch Game</h1>
+
+<div class="top-options">
+
+<div class="option active" onclick="showCategory('mf',this)">
+<div class="top-circle">
+👨👩
+</div>
+<span>Male Female</span>
+</div>
+
+<div class="option" onclick="showCategory('mfm',this)">
+<div class="top-circle">
+👨👩👨
+</div>
+<span>Male Female Male</span>
+</div>
+
+<div class="option" onclick="showCategory('fmf',this)">
+<div class="top-circle">
+👩👨👩
+</div>
+<span>Female Male Female</span>
+</div>
+
+</div>
+
+<div id="scratchArea" class="scratch-grid"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+<script>
+window.onload=function(){
+showCategory("mf",document.querySelector(".option"));
+}
+</script>
+
+</body>
+</html>
