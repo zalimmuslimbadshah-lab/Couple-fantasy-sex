@@ -1,20 +1,20 @@
 const images = {
   mf: [
-    "image/mf1.png","image/mf2.png","image/mf3.png",
-    "image/mf4.png","image/mf5.png","image/mf6.png",
-    "image/mf7.png","image/mf8.png","image/mf9.png"
+    "mf1.png","mf2.png","mf3.png",
+    "mf4.png","mf5.png","mf6.png",
+    "mf7.png","mf8.png","mf9.png"
   ],
 
   mfm: [
-    "image/mfm1.png","image/mfm2.png","image/mfm3.png",
-    "image/mfm4.png","image/mfm5.png","image/mfm6.png",
-    "image/mfm7.png","image/mfm8.png","image/mfm9.png"
+    "mfm1.png","mfm2.png","mfm3.png",
+    "mfm4.png","mfm5.png","mfm6.png",
+    "mfm7.png","mfm8.png","mfm9.png"
   ],
 
   fmf: [
-    "image/fmf1.png","image/fmf2.png","image/fmf3.png",
-    "image/fmf4.png","image/fmf5.png","image/fmf6.png",
-    "image/fmf7.png","image/fmf8.png","image/fmf9.png"
+    "fmf1.png","fmf2.png","fmf3.png",
+    "fmf4.png","fmf5.png","fmf6.png",
+    "fmf7.png","fmf8.png","fmf9.png"
   ]
 };
 
